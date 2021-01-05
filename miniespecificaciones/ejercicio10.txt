@@ -10,14 +10,14 @@
 11.  funcion obtenerSuma(a, i; b, i) 
 12.     p, i[0-n]
 13.     p <-- a + b
-14.     Escribir "La suma es :" + p
+14.     Escribir "La suma es :" + p //La suma es 20
 15.  fin funcion obtenerSuma
 16.
 22.  funcion obtenerValor(a, i) : i
 21.     m, i[0-n]
 23.     (valores(5),i[0-n])
 24.     valores <-- {5, 10, 15, 20, 25}
-24.     m <-- valores[a]
+24.     m <-- valores[a] //m toma el valor de la posicion 2
 25.     return m
 23.  fin funcion obtenerValor
 22. Fin
